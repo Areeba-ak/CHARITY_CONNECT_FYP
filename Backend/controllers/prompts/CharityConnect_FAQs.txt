@@ -1,0 +1,67 @@
+
+Charity Connect — Frequently Asked Questions (FAQs)
+
+🧑‍💼 For Donors
+
+Q1: How can I donate on Charity Connect?
+A: You can browse verified stories posted by beneficiaries. Once you select a cause, you can donate money using Stripe or PayPal, or contribute non-monetary items like books, food, clothes, electronics, and more.
+
+Q2: Is my donation secure and transparent?
+A: Yes. Charity Connect uses blockchain smart contracts to log all donations publicly and transparently. Your transactions are secure via Stripe/PayPal and visible on a blockchain ledger.
+
+Q3: Can I donate anonymously?
+A: Yes, you can choose to hide your identity while donating. Your transaction will still be tracked and verified on the blockchain.
+
+Q4: How do I track my donations?
+A: You’ll get a donor dashboard where all your past donations, both monetary and non-monetary, are logged. You can also view the status updates shared by beneficiaries or admins.
+
+Q5: Can I talk to the beneficiary directly?
+A: In certain verified cases, you may communicate through the platform if the beneficiary has enabled this option and admin approval is granted.
+
+🧍 For Beneficiaries
+
+Q1: How can I request help on Charity Connect?
+A: You need to register as a beneficiary, then submit your donation request story. Choose a category, write your description, and optionally attach images or documents.
+
+Q2: How does the platform verify my request?
+A: Once submitted, your story goes to the Admin Panel for verification. Admins may accept, edit, or reject the story based on guidelines.
+
+Q3: Can I request different types of help?
+A: Yes. Charity Connect supports multiple donation types: money, food, clothing, medical aid, shelter, books, electronics, blood/plasma, employment tools, and disaster relief.
+
+Q4: How will I be notified about my request status?
+A: You’ll receive an email notification when your story is approved, rejected, or if someone donates to you.
+
+Q5: Is there any fee for posting a donation request?
+A: No, Charity Connect is completely free for beneficiaries. You only need to register and follow the verification process.
+
+🛠️ For Admins
+
+Q1: What does an Admin do on Charity Connect?
+A: Admins are responsible for verifying beneficiary stories, managing donor and beneficiary accounts, moderating submissions, and tracking platform activity through a dashboard with analytics.
+
+Q2: Can Admins edit user content?
+A: Yes. Admins can edit or reject stories that don’t meet platform guidelines or lack required evidence.
+
+Q3: How is story verification handled?
+A: Admins access a dedicated verification panel to review each submission. Verified stories become visible to all donors.
+
+Q4: How do Admins track donation activity?
+A: Admins use a dashboard that shows donation trends, active users, approved stories, and real-time platform data visualizations.
+
+🌐 General Platform Questions
+
+Q1: What technologies power Charity Connect?
+A: It’s built using the MERN stack (MongoDB, Express.js, React.js, Node.js), OpenAI for AI features, Stripe/PayPal for payments, and Ethereum for blockchain-based tracking.
+
+Q2: Is the platform multilingual?
+A: Yes. The chatbot can understand and respond in English, Urdu, Arabic, and even Roman Urdu based on user input.
+
+Q3: What if AI is not working?
+A: Charity Connect will show predefined fallback answers and redirect you to the FAQ/help section.
+
+Q4: Is my data safe?
+A: Yes. We use SSL encryption, role-based authentication, and secure storage on MongoDB Atlas to protect your data.
+
+Q5: Can I access the platform on mobile?
+A: Yes. Charity Connect supports responsive design and is fully usable via desktop or mobile browser.

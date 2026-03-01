@@ -1,0 +1,15 @@
+{
+  "name": "charityconnect-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain module for CharityConnect transparency logging",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network amoy"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.6.1",
+    "hardhat": "^2.28.0"
+  }
+}

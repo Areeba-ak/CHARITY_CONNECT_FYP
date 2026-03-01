@@ -1,0 +1,123 @@
+
+Charity Connect — Detailed SRS Summary
+
+Project Title:
+Charity Connect: AI-Powered Donation Platform
+
+Purpose:
+To provide a secure, transparent, and efficient platform that connects verified beneficiaries with donors. It incorporates AI for intelligent assistance and blockchain for transaction transparency.
+
+Actors:
+1. Admin
+   - Verifies user-submitted donation stories.
+   - Manages all user accounts (donors + beneficiaries).
+   - Approves or rejects donations.
+   - Accesses full admin dashboard with analytics.
+
+2. Donor
+   - Browses verified stories.
+   - Makes monetary and non-monetary donations.
+   - Tracks past donations.
+   - Communicates with beneficiaries if allowed.
+
+3. Beneficiary
+   - Registers and submits stories.
+   - Selects donation categories.
+   - Receives help once approved.
+   - Gets updates on approval status.
+
+Core Functional Modules:
+1. User Registration & Management
+   - Role-based access control
+   - Admin, Donor, Beneficiary accounts
+   - Email verification and secure login
+
+2. Donation Story Submission
+   - Beneficiaries post stories
+   - Include category, description, and media (optional)
+   - AI-generated summary of the story
+
+3. Admin Verification Panel
+   - View pending stories
+   - Approve or reject submissions
+   - Moderate and edit user content
+
+4. Donation System
+   - Categories:
+     - Monetary
+     - Food & Groceries
+     - Clothing & Footwear
+     - Books & Education
+     - Blood & Plasma
+     - Medical Aid
+     - Shelter & Housing
+     - Electronics
+     - Employment Support
+     - Disaster Relief
+   - Users can filter and donate in any of these
+
+5. Payment Gateway Integration
+   - Stripe and PayPal for monetary donations
+   - Smart contracts for logging blockchain activity
+
+6. AI Features
+   - Chatbot assistant
+   - Summarizes stories for donors
+   - Answers donor/beneficiary queries
+
+7. Blockchain Features
+   - Ethereum-based smart contracts
+   - Tracks verified donations and story status
+   - Public ledger transparency
+
+8. Dashboard Analytics
+   - Admin dashboard
+   - Donor and Beneficiary statistics
+   - Visualizations for story and donation activity
+
+9. Notification & Communication
+   - Email alerts on story approval, donation receipt, status updates
+
+Non-Functional Requirements:
+- Security
+  - SSL encryption
+  - Role-based authentication
+  - Secure payments
+
+- Performance
+  - Fast story search
+  - Minimal response time for AI queries
+
+- Scalability
+  - Designed to handle growing donor/beneficiary base
+
+- Usability
+  - Simple UI (React)
+  - Accessible features for low-tech users
+
+- Reliability
+  - Proper error handling
+  - Stable APIs
+
+Tools & Technologies:
+
+| Layer     | Technology Used        |
+|-----------|------------------------|
+| Frontend  | React.js, Tailwind CSS |
+| Backend   | Node.js, Express.js    |
+| Database  | MongoDB                |
+| AI        | OpenAI API             |
+| Payment   | Stripe, PayPal         |
+| Blockchain| Ethereum Smart Contracts |
+
+Key Features Summary:
+- AI chatbot for live user help  
+- AI-generated story summaries  
+- Admin-verified stories only  
+- Transparent blockchain-backed donation ledger  
+- Stripe/PayPal payment gateway  
+- Donor and beneficiary dashboards  
+- Smart donation filtering by category  
+- Admin controls over the entire workflow  
+- Notifications for story status and donations  
+- Secure, real-time donation tracking  
