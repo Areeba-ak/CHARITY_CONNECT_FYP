@@ -75,8 +75,3 @@ This project was developed as a Final Year Project (FYP) to demonstrate:
 - Blockchain integration
 - AI-powered system features
 - Real-world problem solving
-
-
-**Contributors**
-- Areeba Khalid
-- Laraib Bhatti
